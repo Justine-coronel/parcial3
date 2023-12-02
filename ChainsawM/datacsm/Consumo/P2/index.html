@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Header de la pagina -->
+<body onload="start()">
+    <nav class="BarraNav">
+        <img class="logo" src="media/pochita.png" id="contenedor">
+
+<!-- Menu desplegable para ir a secciones de la pagina -->
+
+        <div class="menutoggle" onclick="ToggleMenu();"></div>
+    </nav>
+    
+    <div class="sidebar" onclick="ToggleMenu();">
+        <ul>
+            <li><a href="#1" id="item0"></a> </li>
+            <li><a href="#2" id="item1"></a> </li>
+            <li><a href="#3" id="item2"></a> </li>
+            <li><a href="#4" id="item3"></a> </li>
+            <li><a href="#6" id="item4"></a> </li>
+            <li><a href="#5" id="item5"></a> </li>
+
+        </ul>
+
+    </div>
+    <!----------------------------------------------------------------------------------------------->
+
+    <section class="SeccionInicial" id="1">
+        <!--Titulo-->
+        <h1 class="Titulo-sec1" id="titulo1"></h1>
+        <div class="contenedorPrincipal">
+
+            <div class="Introduccion">
+                <p class="TextoIntro" id="parrafo1">
+                </p>
+            </div>
+
+            <div class="ImagenInic">
+                <img class="Kobeni" alt="" id="img1">
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------------------------->
+    <section class="seccion2" id="2">
+        <div class="imgSec2">
+            <img class="makima" id="img2" alt="" >
+        </div>
+
+        <div class="textSec2">
+                    <!--Titulo-->
+            <h1 class="tituloMkm" id="titulo2"></h1>
+            <p class="parrafoMkm" id="parrafo2">
+            </p>
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------------------------->
+    <section class="seccion3">
+        <h2 class="titu" id="titlepersonaje"></h2>
+        <div class="guineo">
+            <div class="columna">
+                <div>
+                    <img class="lapices" id="personajeimg1">
+                </div>
+
+                <div>
+                    <p class="texto1" id="personajeparra1">
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="columna">
+                <div>
+                    <p class="texto2" id="personajeparra2">
+  
+                    </p>
+                </div>
+
+                <div>
+                    <img class="tigre" id="personajeimg2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------------------------------------------------------------------------->
+    <section class="seccion4">
+        <div class="cazadores">
+            <img class="imgcont" id="cazador0">
+            <img class="imgcont" id="cazador1">
+            <img class="imgcont" id="cazador2">
+            <img class="imgcont" id="cazador3">
+        </div>
+        <div class="Texto-sec4" id="3">
+                    <!--Titulo-->
+            <h1 class="Titulo-sec4" id="cazadortitle"> </h1>
+            <div class="info2" id="cazadorparrafo">
+                <p>
+                </p>
+            </div>
+            <div class="botonRandom">
+                <button id="botonRandom" class="Boton-sec4">Leer Mas</button>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------------------------------------------------------------------------->
+    <section class="Demonios" id="4">
+                <!--Titulo-->
+        <h2 class="tituloDem" id="demoniotitle0"></h2>
+        <div class="ContGeneral">
+            <div class="ContDem">
+                <div class="ContenidoDem">
+                    <div class="ContenedorImgDem">
+                        <img class="ImgDem" id="demonioimg0">
+                    </div>
+                    <div class="ContenedorTextDem">
+                        <h3 id="demoniotitle1"><h3>
+                        <p class="DescDem" id="demonioparra0"></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="ContDem">
+                <div class="ContenidoDem">
+                    <div class="ContenedorImgDem">
+                        <img class="ImgDem" id="demonioimg1">
+                    </div>
+                    <div class="ContenedorTextDem">
+                        <h3 id="demoniotitle1"></h3>
+
+                        <p class="DescDem" id="demonioparra1"></p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="ContDem">
+                <div class="ContenidoDem">
+                    <div class="ContenedorImgDem">
+                        <img class="ImgDem" id="demonioimg2">
+                    </div>
+                    <div class="ContenedorTextDem">
+                        <h3 id="demoniotitle2"></h3>
+
+                        <p class="DescDem" id="demonioparra2"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ContDem">
+                <div class="ContenidoDem">
+                    <div class="ContenedorImgDem">
+                        <img class="ImgDem" id="demonioimg3">
+                    </div>
+                    <div class="ContenedorTextDem">
+                        <h3 id="demoniotitle3"></h3>
+
+                        <p class="DescDem" id="demonioparra3"></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="ContenedorBotones">
+            <button id="prevBtn">↼</button>
+            <button id="nextBtn">⇁</button>
+        </div>
+    </section>
+
+    <!----------------------------------------------------------------------------------------------->
+    <section class="seccion5">
+        <div class="Contratos">
+            <div class="columna">
+                <div>
+                    <img class="imgContract" id="img6">
+                </div>
+            </div>
+
+            <div class="columna" id="6">
+                <div>
+                    <h2 class="tituloContract" id="title6">
+                    </h2>
+                </div>
+
+                <div>
+                    <p class="descContract" id="parraf6">
+                    </p>
+                </div>
+
+                <div class="boton">
+                    <button type="button" id="botonslide">➜</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------------------------->
+
+
+
+    <section class="seccionDform" id="5">
+        <form action="#" method="post" id="si">
+            <h1 class="titulon" id="contenedorT">Mas informacion CSM</h1>
+            <div class="campo">
+                <label for="pap">Nombre: </label>
+                <input class="espacio" type="text" id="pap" name="name" required>
+            </div>
+            <div class="campo">
+                <label for="go">Email:</label>
+                <input class="espacio1" id="email" name="go" required>
+            </div>
+            <div class="campo">
+                <label for="bruh">Mensaje:</label>
+                <textarea class="espacio3" name="bruh" rows="4" required></textarea>
+            </div>
+
+            <div class="BtnSubmit">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <!--********************************************************************-->
+    <div class="contenedorJuego">
+        <div class="contenedorSerp">
+            <div class="detalles">
+                <span class="puntuacion">Puntuacion: 0</span>
+                <img src="media/iconPochita.png" alt="" class="iconoPochita">
+            </div>
+
+            <div class="tablero">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--********************************************************************-->
+    <section class="footerbg">
+        <footer class="footer-contenedor">
+            <div class="logo-utp"><img src="media/Logo UTP.png" class="Dlogo" alt=""></div>
+            <p>Parcial #2 - Desarrollo de software</p>
+            <div class="logo-utp"><img src="media/logoFisc.png" class="Dlogo" alt=""></div>
+        </footer>
+
+        <script src="si.js" type="text/javascript"></script>
+</body>
+
+</html>
